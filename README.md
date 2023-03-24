@@ -68,3 +68,37 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+List five significant features of React
+1. JSX - JavaScript Syntax Extension
+2. Virtual DOM
+3. Performance
+4. One-way data binding
+5. Extensions
+<!-- 6. Debugging -->
+
+List five major advantages of React
+1. Reusable component
+2. React is easy to learn
+3. Improved performance
+4. Development of both web and mobile apps
+5. Easy creation of dynamic applications
+<!-- 6. Dedicated tools for easy debugging -->
+<!-- 7. Unidirectional data flow -->
+
+What is the name of the Software Engineer that created React?
+Jordan Walke
+
+Which company owns React?
+Meta
+
+What are the notable differences between HTML & JSX? Give at least 3 of them
+1. You must return a single parent element in JSX, or it won't compile but in HTML, you are free to do whatever you want as you don’t have to return a single parent element.
+2. You can implement JavaScript directly in JSX but this cannot done directly in HTML
+3. All self-closing tags must include the slash before the right angle bracket
+<!-- 4. ClassName and HTMLFor are used in JSX, as opposed to class and for in HTML -->
+<!-- 5. All HTML Attributes  and event references are written in camelCase in JSX -->
+<!-- 6. Inline Styles are written as object in JSX  -->
+
+Why can’t browsers read JSX?
+JSX is not a valid JavaScript as they are embedded in HTML elements. As JSX is combination of HTML and JavaScript it is not supported by Browsers. So, if any file contains JSX file, Babel transpiler converts the JSX into JavaScript objects which becomes a valid JavaScript. Thus, browsers understands the code and executes. Browsers can’t read JSX because there is no inherent implementation for the browser engines to read and understand them. JSX is not intended to be implemented by the engines or browsers, it is intended to be used by various transpilers to transform these JSX into valid JavaScript code.
